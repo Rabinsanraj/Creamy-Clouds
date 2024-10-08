@@ -1,0 +1,70 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-image: url(autumn-leaves-composition.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+nav ul {
+    float: right;
+    position: fixed;
+    right:30px;
+    top: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0.5px;
+    margin-right: 40px;
+}
+
+nav ul li #men {
+    list-style: none;
+    color: rgb(255, 254, 254);
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+    padding: 12px 7px 7px 12px;
+    background-color: rgb(1, 18, 20);
+}
+
+nav ul li #men:hover {
+    color: rgb(1, 18, 20);
+    font-size: 20px;
+    background-color: rgb(255, 196, 0);
+    box-shadow: 0px 0px 2px 2px rgba(255, 196, 0, 0.801);
+}
+
+.continer{
+    padding: 6rem 5rem 3rem 3rem;
+    overflow: hidden;
+}
+.img{
+    overflow: hidden;
+    margin: 70px ;
+    width: 700px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 8px 3px 5px 4px rgba(0, 0, 0, 0.534);
+}
+.dummy{
+    position: relative;
+    display: flex;
+    aspect-ratio: 16/13;
+    overflow: hidden;
+    box-shadow: 8px 3px 5px 4px rgba(0, 0, 0, 0.534);
+    border-radius: 20px;
+    margin: auto;
+    width: 700px;
+    height: fit-content;
+    
+}

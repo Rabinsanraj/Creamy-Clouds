@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creamy Clouds</title>
+    <link rel="stylesheet" href="./icestyle.css">
+</head>
+
+<body>
+    <nav>
+        <label class="logoname" id="logo">
+            <span>C</span>
+            <span>R</span>
+            <span>E</span>
+            <span>A</span>
+            <span>M</span>
+            <span>Y</span>
+            <br>
+            <span>C</span>
+            <span>L</span>
+            <span>O</span>
+            <span>U</span>
+            <span>D</span>
+            <span>S</span>
+        </label>
+        <ul>
+            <li><a class="about" type="button" id="men" href="./about.html">About</a></li>
+            <li><a class="contact" type="button" id="men" href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="store" class="storage" style="right: 20px; margin-top: 250px;">
+        <p id="spv"></p>
+    </div>
+    <div id="store1" class="storage" style="right: 20px; margin-top: 350px;">
+        <p id="spb"></p>
+    </div>
+    <section class="container">
+
+        <div class="slider-wraper">
+            <div class="product" id="Vanila">
+                <div class="simg">
+                    <img class="mySlide" src="Vanilla-Ice-Cream-Flavour-Image.jpg">
+                    <h2 style="text-align: center; font-weight: bold;">Vanilla-Ice-Cream</h2>
+                    <p style="text-align: center; font-weight: bold;">$30</p>
+
+                    <button class="add" type="button" id="vanila" onclick="add()">ADD</button>
+                    <button class="reload" type="button" id="v-reload" onclick="reload()">🗘</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container" style="padding-top: 0px; margin-top: 0px">
+        <div class="slider-wraper">
+            <div class="product" id="Blueberry">
+                <div class="simg">
+                    <img class="mySlide2" src="Blueberry-Ice-Cream-Flavour-Image.jpg">
+                    <h2 style="text-align: center; font-weight: bold;">Blueberry-Ice-Cream</h2>
+                    <p style="text-align: center; font-weight: bold;">$50</p>
+
+                    <button class="add1" type="button" id="blueberry" onclick="add1()">ADD</button>
+                    <button class="reload1" type="button" id="b-reload" onclick="reload1()">🗘</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="icejscript.js"></script>
+</body>
+
+</html>
